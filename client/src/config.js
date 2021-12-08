@@ -1,6 +1,6 @@
 const prod = {
     env: 'production',
-    api_host: 'https://cryptic-citadel-45712.herokuapp.com/' // an empty string to signify a relative path. can also put a deployment URL.
+    api_host: 'https://quiet-fortress-12469.herokuapp.com/' // an empty string to signify a relative path. can also put a deployment URL.
 };
 
 const dev = {
