@@ -1,0 +1,190 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+.introHome{
+   background-color: white;
+   
+    
+    
+}
+.bolder{
+    font-weight: bolder;
+}
+.sidePost{
+    transform: scale(0.5);
+    transition: transform 400ms;
+    opacity: .5;
+}
+.currPost{
+    transform: scale(1);
+    opacity: 1;
+}
+
+.homeAnimate{
+    animation: easeIn 1.5s;
+}
+
+.textCenter{
+    text-align: center;
+    
+}
+
+
+#head {
+    margin-top: 5px;
+}
+.orangeGrad{
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, orange 100%);
+    
+    width: auto;
+    padding: 10px;
+    padding-bottom: 20px;
+    
+}
+.orangeGrad h1{
+    margin-top: 10px;
+    
+}
+.px30{
+    margin-bottom: 30px;
+}
+.px10{
+    margin-bottom: 10px;
+}
+
+
+.home-flex-container{
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+.instructionsWrapper{
+    width: 50%;
+    
+    
+}
+.instructionsHeader{
+    margin-top: 0px;
+}
+.instructions{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    line-height: 150%;
+}
+.videoWrapper{
+   display: flex;
+   justify-content: center;
+   width: 50%;
+   
+   
+}
+
+
+.white{
+    color:white;
+}
+
+.underline{
+    color: orange;
+}
+.video{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+}
+
+.wave{
+    display: block;
+}
+.orangebox{
+    
+    background-color: orange;
+}
+@keyframes easeIn {
+    from{
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+    to{
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
+
+.buttonHome{
+    
+   
+    
+   display:block;
+    margin: 100px auto;
+   
+    border-radius: 36px;
+    
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 17px;
+}
+.goToShop{
+    display:block;
+    margin: 30px auto;
+    
+    border-radius: 36px;
+    
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.backToTop{
+    display:block;
+    margin: 30px auto;
+    
+    border-radius: 36px;
+    padding: 18px 52px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 17px;
+}
+.linkStyleW{
+   padding: 18px 52px;
+   color: white;
+   display:block;
+   
+    
+}
+
+.linkStyleO{
+    padding: 18px 52px;
+    color: orange;
+     display: block;
+ }
+.bOrange{
+    background: orange;
+    color: white;
+    
+}
+
+.bOrange:hover{
+    background: #ff8e06;
+    text-decoration: underline;
+}
+
+.bWhite{
+    background: white;
+    color: orange;
+}
+
+.bWhite:hover{
+    background: #e6e6e6;
+    text-decoration: underline;
+}

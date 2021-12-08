@@ -1,0 +1,133 @@
+.adminTable{
+    
+    border-collapse: collapse;
+    border-radius: 5px 5px 0 0;
+    width: 1600px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    margin:auto;
+    margin-top: 40px;
+}
+
+.adminTableAL{
+    background-color: orange;
+    /*color: white;*/
+    padding: 10px 12px;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 25px;
+}
+
+.adminTableAR{
+    background-color: orange;
+    text-align: center;
+}
+
+.adminTableButton{
+    text-align: center;
+    padding: 10px 12px;
+    border-bottom: 1px solid #dddddd;
+}
+
+.adminTable tr td{
+    padding: 10px 12px;
+    border-bottom: 1px solid #dddddd;
+}
+
+.adminTable tr:hover{
+    background-color: #e6e6e6;
+    transition: 0.4s;
+}
+
+.adminTablePic{
+    width: 30px;
+	height: 30px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+}
+
+.buttonRound:hover{
+    display: inline-block;
+    cursor: pointer;
+    background-color: #bf0000;
+    display: block;
+    margin: 10px auto;
+}
+
+.buttonRound{
+    background-color: red;
+    color: white;
+    border-radius: 12px;
+    padding: 10px 24px;
+    display: block;
+    margin: 10px auto;
+}
+
+.a:hover{
+    color: rgb(0, 116, 248);
+    text-decoration: underline;
+}
+
+.weeklyChallangeTableEntry{
+    height: 70.5px;
+}
+
+.changeWeeklyForm{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    padding: 5px 10px;
+    
+}
+
+.inputFormChallenge{
+    width: 400px;
+}
+
+.currentChallengeText{
+
+    font-weight: bold;
+    padding: 12px;
+}
+
+.weeklyChallengeDisplay{
+    font-size: 140%;
+    color:orange;
+    text-decoration: underline
+}
+
+.changeWeeklySubmit:hover{
+    display: inline-block;
+    cursor: pointer;
+    background-color: #bf0000;    
+}
+
+.changeWeeklySubmit{
+    border-radius: 12px;
+    padding: 5px 10px;
+    background-color: red;
+    color: white;
+
+}
+
+.banUser-container{
+    display:flex;
+    flex-wrap: wrap;
+    
+    align-content: flex-start;
+    height: 300px;
+    overflow-y: scroll;
+}
+
+.userBan{
+    
+    padding-right: 5px;
+    height : 50px;
+}
+

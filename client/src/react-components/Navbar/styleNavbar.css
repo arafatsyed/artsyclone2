@@ -1,0 +1,56 @@
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid;
+    border-color: black;
+    
+}
+.menu{
+    display: flex;
+    
+}
+.logoImg{
+    width: auto;
+    height: 50px;
+}
+
+.menu {
+    list-style: none;
+    margin-top: 16px;
+}
+.menuItem{
+    margin: 5px;
+}
+
+.menuItem:hover{
+    text-decoration: underline;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: rgb(143,67,52);
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px;
+    line-height: 29px;
+    
+}
+.logo{
+    margin-left: 5px;
+    text-align: 15px;
+    background: white;
+    cursor:pointer;
+    border: none;
+}
+
+.buttonShop:hover{
+    text-decoration: underline;
+}
+
+.buttonShop{
+    background-color: orange;
+    color: white;
+    border-radius: 24px;
+    padding: 10px 32px;
+    cursor: pointer;
+}

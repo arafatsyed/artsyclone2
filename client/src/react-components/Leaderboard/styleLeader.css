@@ -1,0 +1,133 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+
+/*Leaderboard Headers*/
+.rectangle {
+    background-color: orange;
+    border-radius: 5px 5px 5px 5px;
+    width: 1200px;
+    height: 50px;
+    margin:auto;
+    margin-top: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 35px;
+}
+
+.rectangleBannerWrapper{
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, orange 100%);
+    margin:auto;
+    text-align: center;
+    line-height: 50px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.headerText{
+    line-height: 50px;
+    padding: 490px;
+    text-align: center;
+    /*color: white;*/
+    font-size: 35px;
+}
+
+/*Leaderboard table*/
+.leaderboardTable{
+    
+    border-collapse: collapse;
+    border-radius: 5px 5px 0 0;
+    min-width: 1200px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    margin:auto;
+    margin-top: 40px;
+}
+
+.leaderboardTableHeader{
+    background-color: orange;
+    /*color: white;*/
+    padding: 10px 12px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.leaderboardTable tr td{
+    padding: 10px 12px;
+    border-bottom: 1px solid #dddddd;
+}
+
+.leaderboardPicFirst{
+    width: 60px;
+	height: 60px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+}
+
+.leaderboardPicSecond{
+    width: 50px;
+	height: 50px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+}
+
+.leaderboardPicThird{
+    width: 40px;
+	height: 40px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+}
+
+.leaderboardPic{
+    width: 30px;
+	height: 30px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+}
+
+.first{
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.bold{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.alignCENH{
+    background-color: orange;
+    /*color: white;*/
+    font-weight: bold;
+    text-align: center;
+}
+
+.alignCEN{
+    text-align:center;
+}

@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+    line-height: 1.2;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.carousel-img{
+    height :800px;
+    object-fit: cover;
+}
+
+.carousel-control-next,
+.carousel-control-prev  {
+    filter: invert(100%);
+}
+
+.introHome{
+    padding: 20px;
+    background-color: orange;
+    
+}

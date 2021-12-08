@@ -1,0 +1,59 @@
+body {
+	background-color:white;
+	margin: 0;
+
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+.upvotesBlock{
+    
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    justify-content: center;
+    width: 100%;
+    /* margin-left: auto;
+    margin-right: auto; */
+    position: relative;
+}
+
+.voteText{
+    font-weight: bold;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 120%;
+}
+
+.button:hover{
+    opacity: 0.3;
+}
+
+.button{
+    
+    background: transparent;
+    border: none;
+    
+}
+
+.challengeName{
+
+    text-align: center;
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 110%;
+
+}
+
+.userNameHover:hover{
+    color: rgb(0, 116, 248);
+    cursor: pointer;
+}
+
+.userName{
+    text-align: center;
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 110%; 
+
+}

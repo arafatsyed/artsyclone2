@@ -1,0 +1,100 @@
+body {
+	background-color:white;
+	margin: 0;
+
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+/* a {
+    text-decoration: none;
+    color: black;
+} */
+.profileBanner{
+    background-color: orange;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+#profileStats{
+    /* margin-left: 60%;
+    margin-top: 130px; */
+    width: auto;
+    margin-top: 20px;
+}
+
+#profileStats ul {
+
+    
+    align-items: center;    
+    margin: 0px;
+	padding: 3px;
+	
+	/* Add properties below */
+	margin-left: 0;
+}
+
+
+#profileStats ul li{
+    
+    margin-right: 20px;
+    list-style: none;
+    text-align: center;
+    display: inline-block;
+
+}
+
+.profilePicDiv{
+    /* margin-left: 30%; */
+}
+
+.profileStatsDiv{
+    margin-left: 50px;
+    width: 300px;
+}
+
+#profilePic {
+    border-radius: 50%;
+    border: 2px solid rgb(255, 255, 255);
+     
+    margin:25px;
+    width: 150px;
+    height: 150px;
+    position: relative;
+}
+
+.profileStatNumber{
+    
+    font-size: 120%;
+    font-weight: bold;
+}
+
+#userName{
+    margin-top: 15px;
+    height: auto;
+    width: auto;
+    
+}
+
+.userNameFont{
+    display: block;
+    font-size: 150%;
+    font-weight: bold;
+}
+
+.customStatus{
+    margin-bottom: 10px;
+    width: 300px;
+    height: 70px;
+    font-size: 105%;
+}
+
+.editProfile{
+
+    float: right;
+    
+}

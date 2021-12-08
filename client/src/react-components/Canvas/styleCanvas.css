@@ -1,0 +1,112 @@
+.body {
+    font-family: 'Open Sans', sans-serif;
+   
+}
+
+#wholeCanvas {
+    margin-left: 375px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+#challenge {
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, orange 100%);
+    font-weight: bold;
+    font-size: 200%;
+    
+    width: 1150px;
+    text-align: center;
+
+    border-left: 3px solid;
+    border-top: 3px solid;
+    border-right: 3px solid;
+    border-bottom: 3px solid;
+}
+
+#actualCanvas {
+    border: "0.0625rem solid #9c9c9c";
+    border-radius: "0.25rem";
+    /* width:800px;
+    height:800; */
+}
+
+.flexBox {
+    display: flex;
+}
+
+.workingCanvas {
+    border-left: 3px solid;
+    border-bottom: 3px solid;
+    flex-shrink: 0;
+    width:800px;
+    height:800px;
+}
+
+.toolBar {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+    align-content: space-around;
+    background-color: rgb(255, 213, 134);
+	width: 350px;
+    height: 800px;
+    
+    border-bottom: 3px solid;
+    /* border-top: 3px solid; */
+    border-right: 3px solid;
+}
+
+.tool {
+    width: 110px;
+    height: 110px;
+    border-radius: 25px;
+    background-color: whitesmoke;
+    border: 3px solid rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.tool:hover .tooltipText{
+    background-color: black;
+    color: white;
+    visibility: visible;
+}
+
+.tool .tooltipText::after{
+    content: " ";
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent black transparent transparent;
+}
+
+
+.icon {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.colourInput {
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 90px;
+    height: 90px;
+}
+
+.tooltipText{
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+ 
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+}

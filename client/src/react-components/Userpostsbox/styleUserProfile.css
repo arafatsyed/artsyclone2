@@ -1,0 +1,33 @@
+body {
+	background-color:whitesmoke;
+	margin: 0;
+
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+
+
+.userPosts-flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:  wrap;
+    width: 1200px;
+    height: auto;
+    /* justify-content:space-between; */
+    margin: auto;
+    margin-top: 20px;
+    
+}
+.userPosts-flex-container-winner{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:  wrap;
+    width: 80%;
+    height: auto;
+    justify-content:space-around;
+    margin: auto;
+    margin-top: 20px;
+    
+}
+

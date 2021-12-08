@@ -1,0 +1,153 @@
+.textCenter{
+    text-align: center;
+}
+.bannerWrapper{
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, orange 100%);
+}
+
+.banner{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.chooseArtHeader{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.selectArtOne{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.buttonSelectArt:hover{
+
+    background-color: lightblue;
+    transition: 0.4ms;
+    color: white;
+}
+
+.buttonSelectArt{
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.artSelectButtons{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap:  wrap;
+    width: 80%;
+    height: auto;
+    justify-content:space-between;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.merchSelectButtons{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap:  wrap;
+    width: 80%;
+    height: auto;
+    justify-content:space-between;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.merch{
+    width: 400px;
+    height: 400px;
+}
+.cnt{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.displayDiv{
+    
+    /* width: 100%; */
+    position: relative;
+    width: 500px;
+    height: 500px;
+    top: 0px;
+    left: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.merchDisplay{
+
+    position: relative;
+    display: block;
+    width: 500px;
+    height: 500px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    top: 0px;
+    left: 0px;
+    object-fit: fill;
+
+   
+}
+
+
+.artDisplayOnMerchShirt{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 160px;
+    left: 200px;
+ 
+}
+
+.artDisplayOnMerchCup{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 200px;
+    left: 140px;   
+}
+
+.artDisplayOnMerchHoodie{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    top: 160px;
+    left: 190px;    
+}
+
+.actualDisplay{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.buyButton{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 20px;
+    color: white;
+    padding: 12px 28px;
+    background-color: #f44336;
+    cursor:pointer;
+}
+
+.buyButton:hover{
+    background-color: #bf0000;
+}

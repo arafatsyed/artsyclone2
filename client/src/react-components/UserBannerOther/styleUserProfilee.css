@@ -1,0 +1,181 @@
+body {
+	background-color:white;
+	margin: 0;
+
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+.profileBanner{
+    background-color: #FFAA33;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-bottom: 2px black;
+    
+   
+
+}
+
+#profileStats{
+    /* margin-left: 60%;
+    margin-top: 130px; */
+    width: auto;
+    margin-top: 20px;
+}
+
+#profileStats ul {
+
+    
+    align-items: center;    
+    margin: 0px;
+	padding: 3px;
+	
+	/* Add properties below */
+	margin-left: 0;
+}
+
+
+#profileStats ul li{
+    
+    margin-right: 20px;
+    list-style: none;
+    text-align: center;
+    display: inline-block;
+
+}
+
+
+.profileStatsDiv{
+    margin-left: 50px;
+    width: 300px;
+   
+}
+
+#profilePic {
+    border-radius: 50%;
+    border: 2px solid rgb(255, 255, 255);
+     
+    margin:25px;
+    width: 150px;
+    height: 150px;
+    position: relative;
+}
+
+.profileStatNumber{
+    
+    font-size: 120%;
+    font-weight: bold;
+}
+
+#userName{
+    /* margin-top: 15px; */
+    height: auto;
+    width: auto;
+    
+}
+
+.userNameFont{
+    display: block;
+    font-size: 150%;
+    font-weight: bold;
+}
+
+.customStatus{
+    margin-bottom: 10px;
+    width: 300px;
+    height: 70px;
+    font-size: 105%;
+}
+
+
+
+
+.modalCloseButton:hover{
+    background-color: red;
+    transition: 0.2s;
+}
+
+.modalCloseButton{
+    
+    left: 95%;
+    position: relative;
+    margin-top: 5px;
+}
+
+.editProfileModal{
+
+    position: absolute;
+    top: 100px;
+    left: 400px;
+    right: 400px;
+    bottom: 100px;
+    background-color: rgb(255, 157, 0);
+    border: 2px black;
+    border-radius: 8px;
+    overflow: hidden;
+    outline: black;
+
+}
+
+.modalInputBox{
+    width: 500px;
+    height: 300px;
+    background-color: whitesmoke;
+    /* Center vertically and horizontally */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);    
+    border-radius: 4px;
+    border: 3px black;
+}
+
+.mainText{
+    text-align: center;
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 150%;
+    position: relative;
+}
+.modalUserNameChangeForm{
+    width: 163px;
+    margin-left: 20%;
+    margin-top: 10px;
+    margin-right: 5px;
+   
+}
+.changeUserNameHeader{
+    width: auto;
+    margin-left: 20%;
+    margin-top: 10px;
+    font-weight: bold;   
+}
+
+.modalUserNameBioForm{
+
+    text-align: left;
+    padding: 0.4em 0.4em 0.4em 0;
+    height: 100px;
+    width: 170px;
+    margin-left: 20%;
+    margin-top: 10px;
+    box-sizing: border-box;
+    resize: none;
+    font-weight: lighter;
+    font-family: 'Open Sans', sans-serif; 
+}
+
+.submit{
+    float: right;
+    margin-right: 138px;
+    margin-top: 10px;
+    vertical-align: top;
+    position: relative;
+}
