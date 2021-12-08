@@ -5,7 +5,7 @@
 
    /* Connnect to our database */
    // Get the URI of the local database, or the one specified on deployment.
-   const cloud = "mongodb+srv://artsydb:1234@artsy.4sulp.mongodb.net/Artsy"
+   const cloud = 'mongodb+srv://artsydb:1234@artsy.4sulp.mongodb.net/Artsy'
    const local = 'mongodb://localhost:27017/Artsy';
    const mongoURI = cloud;
    
