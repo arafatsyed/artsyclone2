@@ -9,7 +9,7 @@ const { join } = require('path');
 const app = express();
 
 const cors = require('cors');
-app.use(cors());
+// app.use(cors());
 
 const { mongoose } = require("./db/mongoose");
 
