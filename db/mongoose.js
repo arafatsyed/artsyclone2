@@ -7,7 +7,7 @@
    // Get the URI of the local database, or the one specified on deployment.
    const cloud = "mongodb+srv://artsydb:1234@artsy.4sulp.mongodb.net/Artsy"
    const local = 'mongodb://localhost:27017/Artsy';
-   const mongoURI = process.env.MONGODB_URI || cloud
+   const mongoURI = process.env.MONGODB_URI || local;
    
    mongoose.connect(mongoURI);
    
