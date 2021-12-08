@@ -9,6 +9,6 @@
    const local = 'mongodb://localhost:27017/Artsy';
    const mongoURI = process.env.MONGODB_URI || local;
    
-   mongoose.connect(mongoURI);
+   mongoose.connect(mongoURI, { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true});
    
    module.exports = { mongoose }  // Export the active connection.
