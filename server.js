@@ -50,7 +50,7 @@ const mongoChecker = (req, res, next) => {
 
 
 
-app.use(express.static(path.join(__dirname, "/Client/build")));
+
 
 // const TestSchema = mongoose.Schema({
 //     name: String
@@ -591,6 +591,7 @@ app.get("/userprofile1/:id", mongoChecker, async (req, res)=>{
     }
 })
 */
+app.use(express.static(path.join(__dirname, "/client/build")));
 
 app.get("*", (req,res)=>{
 
