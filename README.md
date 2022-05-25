@@ -1,4 +1,5 @@
-*Having huroku errors on the deadline day december 7th. The code on Github is the final commit. We have kept the app on development mode* 
+App link: https://cryptic-citadel-45712.herokuapp.com/
+
 Welcome to Artsy!
 
 Below we have included an overview of our web app features, instructions on how to use it, and any other details you may need to know to use it.
